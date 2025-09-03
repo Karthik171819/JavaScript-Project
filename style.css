@@ -12,13 +12,16 @@ h1{
 }
 
 .choice{
-    height: 175px;
-    width:180px;
-    
+    height: 180px;
+    width:180px;  
+}
+
+.choice:hover{
+    opacity:0.5;
 }
 
 img{
-    height: 150px;
+    height: 100px;
     width:100px;
     object-fit: cover;
     border-radius: 50%;
@@ -27,4 +30,7 @@ img{
 .choices{
     display:flex;
     justify-content: center;
+    margin-top:4rem;
+    align-items: center;
+    gap:3rem;
 }
