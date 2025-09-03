@@ -4,21 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Rock Paper Scissor</h1>
+    <!-- created a image div -->
     <div class="choices">
-        <div class="choice">
+        <div class="choice" id="rock">
             <img src="./images/rock.png"/>
         </div>
 
-        <div class="choice">
+        <div class="choice" id="paper">
             <img src="./images/paper.png"/>
         </div>
 
-        <div class="choice">
+        <div class="choice" id="scissors">
             <img src="./images/scissors.png"/>
         </div>
     </div>
+
+    <!-- score board -->
+     <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="bot-score">0</p>
+            <p>Bot</p>
+        </div>        
+     </div>
+
+     <!-- message shower -->
+      <div class="message-container">
+        <p id="msg">Play Your Move</p>
+      </div>
+
 </body>
 </html>
