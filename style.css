@@ -13,16 +13,24 @@ h1{
 
 .choice{
     height: 180px;
-    width:180px;  
+    width:180px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    
 }
 
 .choice:hover{
-    opacity:0.5;
+    /* opacity:0.5; */
+    cursor:pointer;
+    background-color: #081b31;
+    
 }
 
 img{
-    height: 100px;
-    width:100px;
+    height: 170px;
+    width:170px;
     object-fit: cover;
     border-radius: 50%;
 }
