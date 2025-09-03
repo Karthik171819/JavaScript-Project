@@ -1,5 +1,5 @@
 *{
-    margin:2px;
+    margin:0px;
     padding:0px;
 }
 
@@ -38,7 +38,35 @@ img{
 .choices{
     display:flex;
     justify-content: center;
-    margin-top:4rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     align-items: center;
     gap:3rem;
+}
+
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:5rem;
+}
+
+#user-score, #bot-score {
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color:white;
+    font-size: 2rem;
+    display:inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.message-container{
+    text-align: center;
+    margin-top: 4rem;
+
 }
