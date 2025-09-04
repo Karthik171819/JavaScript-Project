@@ -18,10 +18,11 @@ const drawGame = () =>{
 const showWinner = (userWin) => {
     if (userWin){
         console.log("you win! ");
-        msg.innerText = "You Win!" 
+        msg.innerText = "You Win!";
+        msg.style.backgroundColor = "green";
     } else {
         console.log("you lost");
-        msg.innerText = "You Lost"
+        msg.innerText = "You Lost";
     }
 };
 
