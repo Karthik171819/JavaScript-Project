@@ -9,15 +9,19 @@ const genCompChoice = () => {
     return options[randIdx];
 }
 
+const drawGame = () =>{
+    console.log("game was draw.")
+}
+
 const playGame = (userChoice) => {
     console.log("user choice =", userChoice);
     //Computer choice
     const compChoice = genCompChoice();
     console.log("Bot Choice =", compChoice);
 
-    if (userChoice === comCHoice){
+    if (userChoice === compChoice){
         //Draw Game
-        
+        drawGame();
     }
 
 }
