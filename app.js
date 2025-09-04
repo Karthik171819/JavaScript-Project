@@ -13,7 +13,7 @@ const drawGame = () =>{
     console.log("game was draw.")
 }
 
-const showWinner = (useWin) => {
+const showWinner = (userWin) => {
     if (userWin){
         console.log("you win! ");   
     } else {
