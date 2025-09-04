@@ -13,6 +13,8 @@ const genCompChoice = () => {
 const drawGame = () =>{
     console.log("game was draw.");
     msg.innerText = "Game Draw Try Again";
+    msg.style.backgroundColor = "orange";
+    msg.style.color = "blue";
 }
 
 const showWinner = (userWin) => {
@@ -23,6 +25,7 @@ const showWinner = (userWin) => {
     } else {
         console.log("you lost");
         msg.innerText = "You Lost";
+        msg.style.backgroundColor = "red";
     }
 };
 
